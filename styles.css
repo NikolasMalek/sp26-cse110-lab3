@@ -115,3 +115,48 @@ a[href^="https"] {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+.agenda-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 16px;
+  grid-auto-flow: row;
+}
+
+.meeting-section p {
+  line-height: 1.6;
+}
+
+.agenda-grid > div {
+  padding: 10px;
+  background: #eef;
+}
+
+h2 ~ p {
+  color: #444;
+}
+
+h2 + p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+section:has(h2) {
+  border-top: 3px solid var(--primary);
+  padding-top: 10px;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+
+  & h3 {
+    color: var(--primary);
+    margin-top: 0;
+  }
+
+  & p {
+    color: #555;
+  }
+}
