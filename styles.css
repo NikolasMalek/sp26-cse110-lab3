@@ -160,3 +160,15 @@ section:has(h2) {
     color: #555;
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  .agenda-grid {
+    grid-template-columns: 1fr;
+  }
+  .attendees {
+    flex-direction: column;
+  }
+}
