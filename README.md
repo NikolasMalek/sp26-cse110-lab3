@@ -1,3 +1,3 @@
 # Lab 3
 
-Published site: https://NikolasMalek.github.io/Lab2/
+Published site: (https://nikolasmalek.github.io/sp26-cse110-lab3/)
